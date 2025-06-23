@@ -1,6 +1,6 @@
 # Projeto Integrador - ARGILE
 
-![Logo do projeto](C:\Users\isaab\Downloads\SOP-main\SOP-main\isa integrador)
+![Logo do projeto](isa integrador/logo.png)
 
 Desenvolvedora: Isadora Abreu
 
