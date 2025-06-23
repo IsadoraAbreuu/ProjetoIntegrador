@@ -1,6 +1,6 @@
 # Projeto Integrador - ARGILE
 
-![Logo do projeto](./logo.png)
+![Logo do projeto](logo.png)
 
 Desenvolvedora: Isadora Abreu
 
