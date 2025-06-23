@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | ARGILE</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" >
+ 
+</head>
+<body id="home">
+    <header id="homeCabecalho">
+        <nav id="homeNav">
+            <article class="primeiraLinhaNav">
+                <!---PRIMEIRA LINHA DA NAV BAR--->
+                <a href="home.html" class="logo"><img src="logo.png" alt="Logo de ARGILE"></a>
+
+                <article class="navBarraBusca">
+                    <input type="text" name="busca" placeholder="  Buscar por..."><i class="fa-solid fa-magnifying-glass"></i>
+                </article>
+
+                <article class="navIcone">
+                    <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"><h6>CARRINHO</h6></i></a>
+                    <a href="contaPedidos.html"><i class="fa-solid fa-circle-user"><h6>CONTA</h6></i></a>
+                </article>
+            </article>
+            <!--SEGUNDA LINHA NAV BAR-->
+            <ul class="navMenu">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="catalogo.html">Catálogo</a>
+                    <ul class="submenu">
+                    <li><a href="catalogo.html">Todos</a></li>
+                    <li><a href="vasos.html">Vasos</a></li>
+                    <li><a href="decoracao.html">Decoração</a></li>
+                    <li><a href="cozinha.html">Cozinha</a></li>
+                    <li><a href="canecas.html">Canecas</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    </ul>
+                </li>
+                <li><a href="encomendas.html">Encomendas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="homeConteudo">
+        <img id="banner" src="imagens gerais/imagem home hand made.png" alt="Imagem de um vaso com escrito 'HAND MADE' atrás"/>
+        <img id="assimetrico" src="forma marrom 1.png" alt="Imagem de uma forma assimétrica marrom"/>
+
+        <section class="categoriasHome">
+            <h2>CATEGORIAS</h2>
+            <section class="categorias">
+                <figure class="categoria">
+                    <a href="canecas.html">
+                        <img src="icones/icone-caneca.png" alt="Ícone de uma caneca"/>
+                    </a>
+                    <figcaption>CANECAS</figcaption>
+                </figure>
+                <figure class="categoria">
+                    <a href="vasos.html">
+                        <img src="icones/icone flor-vaso.png" alt="Ícone de um vaso de flor"/>
+                    </a>
+                    <figcaption>VASOS</figcaption>
+                </figure>
+                <figure class="categoria">
+                    <a href="cozinha.html">
+                        <img src="icones/icone-cozinha.png" alt="Ícone de um chapeu de cozinha"/>
+                    </a>
+                    <figcaption>COZINHA</figcaption>
+                </figure>
+                <figure class="categoria">
+                    <a href="decoracao.html">
+                        <img src="icones/icone decoracao.png" alt="Ícone de quadro para decoração"/>
+                    </a>
+                    <figcaption>DECORAÇÃO</figcaption>
+                </figure>
+                <figure class="categoria">
+                    <a href="kits.html">
+                        <img src="icones/icone-kit.png" alt="Ícone de um presente"/>
+                    </a>
+                    <figcaption>KITS</figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <img id="assimetricoParaBaixo" src="forma marrom 2.png" alt="Imagem de uma forma assimétrica marrom"/>
+        
+        <section class="videosHome">
+            <h2>A BELEZA DO ARTESANAL</h2>
+            <hr>
+            <p>Somos uma loja especializada em peças de cerâmica artesanal, unindo tradição e qualidade para oferecer 
+                produtos únicos, feitos à mão com responsabilidade, cuidado e atenção aos detalhes.</p>
+            <video class="video1" width="500" controls autoplay muted loop>
+                 <source src="videos/video1.mp4" type="video/mp4">
+            </video>
+            <video class="video2" width="500" controls autoplay muted loop>
+                 <source src="videos/video2.mp4" type="video/mp4">
+            </video>
+        </section>
+  
+        <section class="cards">
+            <h2>MAIS VENDIDOS</h2>
+            <hr>
+            <section class="carrosselProdutos">
+            <section class="slidesProdutos">
+                <section class="produto">
+                    <figure>
+                        <img src="imagem cozinha/cozinha4.png" alt="ícone caneca"/>
+                        <div class="iconeCoracao">
+                            <i class="fa-regular fa-heart coracao-regular"></i>
+                            <i class="fa-solid fa-heart coracao-solid"></i>
+                        </div>
+                    </figure>
+                    <section class="legendaProdutos">
+                        <h5>Prato de Ovo</h5>
+                        <section class="precoBotao">
+                            <p>R$ 50,0</p>
+                            <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produto">
+                    <figure>
+                        <img src="imagem vasos/vaso4.png" alt="Vaso de flor com laço"/>
+                        <div class="iconeCoracao">
+                            <i class="fa-regular fa-heart coracao-regular"></i>
+                            <i class="fa-solid fa-heart coracao-solid"></i>
+                        </div>
+                    </figure>
+                    <section class="legendaProdutos">
+                        <h5>Vaso Laço</h5>
+                        <section class="precoBotao">
+                            <p>R$ 350,0</p>
+                            <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produto">
+                    <figure>
+                        <img src="imagem kits/kit3.png" alt="Kits Bowls"/>
+                        <div class="iconeCoracao">
+                            <i class="fa-regular fa-heart coracao-regular"></i>
+                            <i class="fa-solid fa-heart coracao-solid"></i>
+                        </div>
+                    </figure>
+                    <section class="legendaProdutos">
+                        <h5>Kits Bowls</h5>
+                        <section class="precoBotao">
+                            <p>R$ 199,0</p>
+                            <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section class="colecoes">
+            <h2>COLEÇÕES</h2>
+            <hr>
+            <section class="colecaoDisney">
+                <figure>
+                    <img src="imagens gerais/coleção_disney.png" alt="Canecas verdes de personagens da Disney">
+                </figure>
+                <div class="legendaColecaoDisney">
+                    <h5>CANECAS DISNEY</h5>
+                    <p>Indispensável para os fãs do filme, além de tornar suas refeições mais divertidas.</p>
+                    <a href="canecas.html">Ver mais</a>
+                </div>
+            </section>
+
+            <section class="colecaoDecoracao">
+                <figure>
+                    <img src="imagens gerais/coleção_decoracao.png" alt="Prato laranja com formato de flor">
+                </figure>
+                <div class="legendaColecaoDecoracao">
+                    <h5>DECORAÇÃO</h5>
+                    <p>Para deixar sua casa mais bonita, alegre e com sua personalidade, clique aqui e veja mais.</p>
+                    <a href="decoracao.html">Ver mais</a>
+                </div>
+            </section>
+
+            <section class="colecaoVaso">
+                <figure>
+                    <img src="imagens gerais/colecao_vasoFlor.png" alt="Vasos rosas com flores">
+                </figure>
+                <div class="legendaColecaoVaso">
+                    <h5>VASOS DE FLORES</h5>
+                    <p>Vasos de cerâmica, feitos à mão, que transformam flores em arte e dão vida ao espaço.</p>
+                    <a href="vasos.html">Ver mais</a>
+                </div>
+            </section>
+        </section>
+
+        <section class="oQueAcham">
+            <h2>O QUE ACHAM DE ARGILE</h2>
+            <hr>
+            <article class="carrosselFeedback">
+            <section class="feedbacks">
+                <ul>
+                    <li><img src="feedbacks/feedback1.png" alt="Feedbacks sobre o e-commercer ARGILE"></li>
+                    <li><img src="feedbacks/feedback2.png" alt="Feedbacks sobre o e-commercer ARGILE"></li>
+                    <li><img src="feedbacks/feedback3.png" alt="Feedbacks sobre o e-commercer ARGILE"></li>
+                    <li><img src="feedbacks/feedback1.png" alt="Feedbacks sobre o e-commercer ARGILE"></li>
+                    <li><img src="feedbacks/feedback2.png" alt="Feedbacks sobre o e-commercer ARGILE"></li>
+                    <li><img src="feedbacks/feedback3.png" alt="Feedbacks sobre o e-commercer ARGILE"></li>
+                   
+                </ul>
+            </section>
+        </article>
+
+        <section class="fraseHome">
+            <h2>"</h2>
+            <p>“Argile é mais que cerâmica - é forma com alma, design com essência. Criamos peças que vivem, 
+                inspiram e contam histórias junto com você.”</p>
+            <hr>
+            <p>Isadora Abreu</p>
+        </section>
+    </main>
+
+    <figure id="imagemFooter">
+        <img src="footer.png" alt="Imagem de forma assimétrica marrom">
+    </figure>
+    <footer class="rodape">
+        <section class="coluna">
+            <h2>LOGO</h2>
+            <address>
+                R. Ferreira Penteado, 1052<br/>
+                Centro, Campinas - SP
+            </address>
+
+            <p><i class="fa-solid fa-envelope"></i>          argile@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>         (19) 4321-7234</p>
+
+            <h3>FORMAS DE PAGAMENTO</h3>
+            <figure class="pagamentos">
+                <img src="pagamentos/pagamento.png" alt="Métodos de pagamento, boleto, visa, mastercard e PIX" />
+            </figure>
+        </section>
+
+        <nav class="coluna">
+            <h3>A ARGILE</h3>
+            <ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="catalogo.html">Produtos</a></li>
+            <li><a href="sobreNos.html">Sobre</a></li>
+            <li><a href="contaRastreio.html">Rastreie seu pedido</a></li>
+            </ul>
+        </nav>
+
+        <nav class="coluna">
+            <h3>POLÍTICAS</h3>
+            <ul>
+            <li><a href="contato.html">Política de Privacidade</a></li>
+            <li><a href="contato.html">Política de Frete</a></li>
+            <li><a href="contato.html">Termos</a></li>
+            <li><a href="contato.html">Trocas e Devoluções</a></li>
+            </ul>
+        </nav>
+
+        <hr class="linhaVertical">
+
+        <section class="colunaNewsletter">
+            <h3>ASSINE NOSSA NEWSLETTER</h3>
+            <form id="newsletter">
+                <input type="email" placeholder="Envie E-mail" /><i class="fa-solid fa-arrow-right"></i>
+            </form>
+            <nav class="social">
+                <a aria-label="link whastsapp" href="https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-whatsapp"></i></i></a>
+                <a aria-label="link facebook" href="https://web.whatsapp.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a aria-label="link instagram" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </section>
+    </footer>
+    <p class="copyright">© 2025 ARGILE. Todos os direitos reservados.</p>
+
+</body>
+</html>

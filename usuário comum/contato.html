@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | ARGILE</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" >
+ 
+</head>
+<body id="contato">
+    <header id="homeCabecalho">
+        <nav id="homeNav">
+            <article class="primeiraLinhaNav">
+                <!---PRIMEIRA LINHA DA NAV BAR--->
+                <a href="home.html" class="logo"><img src="logo.png" alt="Logo de ARGILE"></a>
+
+                <article class="navBarraBusca">
+                    <input type="text" name="busca" placeholder="  Buscar por..."><i class="fa-solid fa-magnifying-glass"></i>
+                </article>
+
+                <article class="navIcone">
+                    <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"><h6>CARRINHO</h6></i></a>
+                    <a href="contaPedidos.html"><i class="fa-solid fa-circle-user"><h6>CONTA</h6></i></a>
+                </article>
+            </article>
+            <!--SEGUNDA LINHA NAV BAR-->
+            <ul class="navMenu">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="catalogo.html">Catálogo</a>
+                    <ul class="submenu">
+                    <li><a href="catalogo.html">Todos</a></li>
+                    <li><a href="vasos.html">Vasos</a></li>
+                    <li><a href="decoracao.html">Decoração</a></li>
+                    <li><a href="cozinha.html">Cozinha</a></li>
+                    <li><a href="canecas.html">Canecas</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    </ul>
+                </li>
+                <li><a href="encomendas.html">Encomendas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contatoConteudo">
+        <figure>
+            <img src="imagens gerais/fale conosco.png" alt="imagem de contato">
+        </figure>
+        <section class="diretrizes">
+            <h2>ATENDIMENTO</h2>
+            <hr>
+            <details>
+                <summary id="termosContato">TERMOS E CONDIÇÕES DE USO</summary>
+                <p>Ao acessar e utilizar nosso site, você concorda com todos
+                    os termos descritos aqui. Nosso conteúdo, incluindo textos, imagens
+                    e produtos, é protegido por direitos autorais e não deve ser reproduzido
+                    sem permissão. As peças são feitas artesanalmente, por isso podem haver
+                    pequenas variações de cor e forma — o que reforça a originalidade de
+                    cada criação. Reservamo-nos o direito de alterar preços, prazos e descrições
+                    de produtos sem aviso prévio. O uso do site implica também no compromisso
+                    do cliente em fornecer dados corretos e atualizados durante o processo de compra.</p>
+            </details>
+
+            <details>
+                <summary>TROCAS E DEVOLUÇÕES</summary>
+                <p>A satisfação dos nossos clientes é prioridade. Caso você receba uma peça
+                    danificada ou com defeito, oferecemos a troca ou reembolso no prazo de até
+                    7 dias corridos após o recebimento. Por se tratarem de itens personalizados 
+                    ou feitos sob encomenda, não realizamos trocas por arrependimento, a não ser em 
+                    casos excepcionais. Para efetuar a solicitação, é necessário apresentar fotos do 
+                    produto e da embalagem. O frete de retorno será avaliado caso a caso. Trabalhamos 
+                    com cuidado para garantir que cada peça chegue em perfeito estado até você.</p>
+             </details>
+
+            <details>
+                <summary>POLÍTICA E PRIVACIDADE</summary>
+                <p>Seus dados pessoais estão seguros conosco. Utilizamos suas informações apenas para 
+                    processar pedidos, oferecer um atendimento eficiente e, se autorizado, enviar novidades e 
+                    promoções. Todas as transações são realizadas em ambiente criptografado. Jamais compartilharemos 
+                    seus dados com terceiros sem seu consentimento. Estamos em conformidade com a Lei Geral de Proteção 
+                    de Dados (LGPD), e você pode, a qualquer momento, solicitar a remoção ou correção dos seus dados.</p>
+            </details>
+
+            <details>
+                <summary>POLÍTICAS DE FRETE</summary>
+                <p>Trabalhamos com transportadoras parceiras para garantir que suas peças cheguem com segurança e no prazo 
+                    estimado. O cálculo do frete é feito automaticamente na finalização do pedido, com base no CEP informado. 
+                    O prazo de entrega varia conforme a região e o tipo de produto (pronto ou sob encomenda). Enviamos para todo 
+                    o Brasil e, em breve, para outros países! Assim que o pedido for enviado, você receberá o código de rastreio 
+                    por e-mail para acompanhar cada etapa da entrega.</p>
+            </details>
+        </section>
+        
+        <section class="entrarContato">
+            <h2>CONTATO</h2>
+            <hr>
+            <div class="nomeEmail">
+                <input type="text" class="nomeContato" name="nome" placeholder="  Nome">
+                <input type="text" class="emailContato" name="email" placeholder="  E-mail">
+            </div>
+            <input type="text" class="assuntoContato" name="assunto" placeholder="  Assunto">
+            <input type="text" class="mensagemContato" name="mensagem" placeholder="  Mensagem">
+            <button class="enviarContato">ENVIAR</button>
+        </section>
+
+        <section class="localizacaoContato">
+           <iframe aria-label="google maps da localização da" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4370.5859886517665!2d-47.06036491284534!3d-22.905620564194734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf4b2efd5a35%3A0xc3bacf22e59711d7!2sR.%20Ferreira%20Penteado%20-%20Campinas%2C%20SP!5e0!3m2!1sen!2sbr!4v1749946083671!5m2!1sen!2sbr"></iframe>
+        </section>
+    </main>
+
+    <figure id="imagemFooter">
+        <img src="footer.png" alt="Imagem de forma assimétrica marrom">
+    </figure>
+    <footer class="rodape">
+        <section class="coluna">
+            <h2>LOGO</h2>
+            <address>
+                R. Ferreira Penteado, 1052<br/>
+                Centro, Campinas - SP
+            </address>
+
+            <p><i class="fa-solid fa-envelope"></i>          argile@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>         (19) 4321-7234</p>
+
+            <h3>FORMAS DE PAGAMENTO</h3>
+            <figure class="pagamentos">
+                <img src="pagamentos/pagamento.png" alt="Métodos de pagamento, boleto, visa, mastercard e PIX" />
+            </figure>
+        </section>
+
+        <nav class="coluna">
+            <h3>A ARGILE</h3>
+            <ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="catalogo.html">Produtos</a></li>
+            <li><a href="sobreNos.html">Sobre</a></li>
+            <li><a href="contaRastreio.html">Rastreie seu pedido</a></li>
+            </ul>
+        </nav>
+
+        <nav class="coluna">
+            <h3>POLÍTICAS</h3>
+            <ul>
+            <li><a href="contato.html">Política de Privacidade</a></li>
+            <li><a href="contato.html">Política de Frete</a></li>
+            <li><a href="contato.html">Termos</a></li>
+            <li><a href="contato.html">Trocas e Devoluções</a></li>
+            </ul>
+        </nav>
+
+        <hr class="linhaVertical">
+
+        <section class="colunaNewsletter">
+            <h3>ASSINE NOSSA NEWSLETTER</h3>
+            <form id="newsletter">
+                <input type="email" placeholder="Envie E-mail" /><i class="fa-solid fa-arrow-right"></i>
+            </form>
+            <nav class="social">
+                <a aria-label="link whastsapp" href="https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-whatsapp"></i></i></a>
+                <a aria-label="link facebook" href="https://web.whatsapp.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a aria-label="link instagram" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </section>
+    </footer>
+    <p class="copyright">© 2025 ARGILE. Todos os direitos reservados.</p>
+</body>
+</html>

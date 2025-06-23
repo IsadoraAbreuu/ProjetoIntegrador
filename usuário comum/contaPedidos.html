@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta - Pedidos | ARGILE</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body id="contaPedidos">
+    <header id="homeCabecalho">
+        <nav id="homeNav">
+            <article class="primeiraLinhaNav">
+                <!---PRIMEIRA LINHA DA NAV BAR--->
+                <a href="home.html" class="logo"><img src="logo.png" alt="Logo de ARGILE"></a>
+
+                <article class="navBarraBusca">
+                    <input type="text" name="busca" placeholder="  Buscar por..."><i class="fa-solid fa-magnifying-glass"></i>
+                </article>
+
+                <article class="navIcone">
+                    <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"><h6>CARRINHO</h6></i></a>
+                    <a href="contaPedidos.html"><i class="fa-solid fa-circle-user"><h6>CONTA</h6></i></a>
+                </article>
+            </article>
+            <!--SEGUNDA LINHA NAV BAR-->
+            <ul class="navMenu">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="catalogo.html">Catálogo</a>
+                    <ul class="submenu">
+                    <li><a href="catalogo.html">Todos</a></li>
+                    <li><a href="vasos.html">Vasos</a></li>
+                    <li><a href="decoracao.html">Decoração</a></li>
+                    <li><a href="cozinha.html">Cozinha</a></li>
+                    <li><a href="canecas.html">Canecas</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    </ul>
+                </li>
+                <li><a href="encomendas.html">Encomendas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contaPedidos">
+        <aside class="menuConta">
+            <h2>Minha conta</h2>
+            <hr>
+            <nav class="menuNavegacaoConta">
+                <ul>
+                    <li><a href="contaPedidos.html">Pedidos</a></li>
+                    <li><hr></li>
+                    <li><a href="contaDevolucoes.html">Devoluções</a></li>
+                    <li><a href="contaMetodo.html">Métodos de pagamento</a></li>
+                    <li><a href="contaFavoritos.html">Favoritos</a></li>
+                    <li><a href="contaPerfil.html">Perfil</a></li>
+                    <li><a href="contaRastreio.html">Rastrear</a></li>
+                    <li><a href="contaAjustes.html">Ajustes</a></li>
+                    
+                    <li><a href="contato.html">Ajuda</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="pedidoConteudo">
+            <h4 class="tituloPedidoConteudo">Histórico de pedidos</h4>
+            <article class="cardsPedido1">
+                <figure>
+                    <img src="imagem cozinha/cozinha1.png" alt="kit colheres">
+                </figure>
+                <h6>#6377763<p>06/06/2025</p></h6>
+                <h4>Kit colheres
+                    <p class="statusPedido1">À caminho</p>
+                </h4>
+                <a href="contaRastreio.html"><small>Rastrear</small></a>
+            </article>
+
+            <article class="cardsPedido2">
+                <figure>
+                    <img src="imagem vasos/vaso1.png" alt="vaso de flor sacola">
+                </figure>
+                <h6>#6390289<p>06/06/2025</p></h6>
+                <h4>Vaso Sacola
+                    <p class="statusPedido2">Entregue</p>
+                </h4>
+                <small>Pedir novamente</small>
+            </article>
+
+            <article class="cardsPedido3">
+                <figure>
+                    <img src="imagem canecas/caneca7.png" alt="caneca nemo">
+                </figure>
+                <h6>#6390463<p>06/06/2025</p></h6>
+                <h4>Caneca do Nemo
+                    <p class="statusPedido3">Entregue</p>
+                </h4>
+                <small>Pedir novamente</small>
+            </article>
+        </section>
+    </main>
+
+    <figure id="imagemFooter">
+        <img src="footer.png" alt="Imagem de forma assimétrica marrom">
+    </figure>
+    <footer class="rodape">
+        <section class="coluna">
+            <h2>LOGO</h2>
+            <address>
+                R. Ferreira Penteado, 1052<br/>
+                Centro, Campinas - SP
+            </address>
+
+            <p><i class="fa-solid fa-envelope"></i>          argile@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>         (19) 4321-7234</p>
+
+            <h3>FORMAS DE PAGAMENTO</h3>
+            <figure class="pagamentos">
+                <img src="pagamentos/pagamento.png" alt="Métodos de pagamento, boleto, visa, mastercard e PIX" />
+            </figure>
+        </section>
+
+        <nav class="coluna">
+            <h3>A ARGILE</h3>
+            <ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="catalogo.html">Produtos</a></li>
+            <li><a href="sobreNos.html">Sobre</a></li>
+            <li><a href="contaRastreio.html">Rastreie seu pedido</a></li>
+            </ul>
+        </nav>
+
+        <nav class="coluna">
+            <h3>POLÍTICAS</h3>
+            <ul>
+            <li><a href="contato.html">Política de Privacidade</a></li>
+            <li><a href="contato.html">Política de Frete</a></li>
+            <li><a href="contato.html">Termos</a></li>
+            <li><a href="contato.html">Trocas e Devoluções</a></li>
+            </ul>
+        </nav>
+
+        <hr class="linhaVertical">
+
+        <section class="colunaNewsletter">
+            <h3>ASSINE NOSSA NEWSLETTER</h3>
+            <form id="newsletter">
+                <input type="email" placeholder="Envie E-mail" /><i class="fa-solid fa-arrow-right"></i>
+            </form>
+            <nav class="social">
+                <a aria-label="link whastsapp" href="https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-whatsapp"></i></i></a>
+                <a aria-label="link facebook" href="https://web.whatsapp.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a aria-label="link instagram" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </section>
+    </footer>
+    <p class="copyright">© 2025 ARGILE. Todos os direitos reservados.</p>
+</body>
+</html>

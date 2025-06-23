@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar senha | ARGILE</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body id="senha">
+    <main class="esqueciSenha">
+        <section class="header">
+            <h2>Esqueceu a senha?</h2>
+            <p>Selecione a opção para recuperar sua senha</p>
+        </section>
+        <article class="opcoesRecuperar">
+            <input value="e-mail" id="e-mail" name="opcao" type="radio" checked="">
+            <label for="e-mail">
+                <section class="informacoesRecuperar">
+                    <h4>Enviar por E-mail</h4>
+                    <p>O link para a recuperação de sua senha foi enviado para o email registrado.</p>
+                </section>
+            </label>
+        </article>
+    <article class="opcoesRecuperar">
+        <input value="sms" id="sms" name="opcao" type="radio">
+        <label for="sms">
+            <section class="informacoesRecuperar">
+                <h4>Enviar por SMS</h4>
+                <p>O link para a recuperação de sua senha foi enviado para o número registrado.</p>
+            </section>
+        </label>
+    </article>
+        <a href="login.html" class="enviarLinkBotao">Enviar Link</a>
+        <p class="naoRecebeuLink">Não recebeu o link? <a class="reenviar">Reenviar<a></p>
+    </main>  
+</body>
+</html>

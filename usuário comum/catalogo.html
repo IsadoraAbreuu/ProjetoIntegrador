@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | ARGILE</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" >
+
+</head>
+<body id="catalogo">
+    <header id="homeCabecalho">
+        <nav id="homeNav">
+            <article class="primeiraLinhaNav">
+                <!---PRIMEIRA LINHA DA NAV BAR--->
+                <a href="home.html" class="logo"><img src="logo.png" alt="Logo de ARGILE"></a>
+
+                <article class="navBarraBusca">
+                    <input type="text" name="busca" placeholder="  Buscar por..."><i class="fa-solid fa-magnifying-glass"></i>
+                </article>
+
+                <article class="navIcone">
+                    <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"><h6>CARRINHO</h6></i></a>
+                    <a href="contaPedidos.html"><i class="fa-solid fa-circle-user"><h6>CONTA</h6></i></a>
+                </article>
+            </article>
+            <!--SEGUNDA LINHA NAV BAR-->
+            <ul class="navMenu">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="catalogo.html">Catálogo</a>
+                    <ul class="submenu">
+                    <li><a href="catalogo.html">Todos</a></li>
+                    <li><a href="vasos.html">Vasos</a></li>
+                    <li><a href="decoracao.html">Decoração</a></li>
+                    <li><a href="cozinha.html">Cozinha</a></li>
+                    <li><a href="canecas.html">Canecas</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    </ul>
+                </li>
+                <li><a href="encomendas.html">Encomendas</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="catalogo">
+
+        <aside class="menuLateral">
+            <h2>Catálogo</h2>
+            <hr class="separador">
+            <nav class="todosPrincipal">
+                <ul>
+                    <li><a href="catalogo.html">Todos</a></li>
+                    <li><hr></li>
+                    <li><a href="canecas.html">Canecas</a></li>
+                    <li><a href="vasos.html">Vasos</a></li>
+                    <li><a href="cozinha.html">Cozinha</a></li>
+                    <li><a href="decoracao.html">Decoração</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                </ul>
+            </nav>
+
+            <section class="filtrosPrincipal">
+                <h3>Filtrar por</h3>
+                <section class="filtros">
+                    <h4>Tamanho</h4>
+                    <label><input type="checkbox"> Até 10cm</label>
+                    <label><input type="checkbox"> 10 a 30cm</label>
+                    <label><input type="checkbox"> Acima de 30cm</label>
+
+                    <h4>Material</h4>
+                    <label><input type="checkbox"> Argila Vermelha</label>
+                    <label><input type="checkbox"> Argila Branca</label>
+                    <label><input type="checkbox"> Porcelana </label>                    
+                </section>
+            </section>
+        </aside>
+
+        <section class="produtosPrincipal">
+            <section class="produtoCatalogo">
+                <section class="produto">
+                        <figure>
+                            <a href="descricaoCanecas.html">
+                        <figure>
+                            <img src="imagem canecas/caneca1.png" alt="caneca margarida"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        </a>
+                        <section class="legendaProdutos">
+                            <h5>Caneca da Margarida</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <a href="descricaoCozinha.html">
+                        <figure>
+                            <img src="imagem cozinha/cozinha1.png" alt="colheres"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        </a>
+                        <section class="legendaProdutos">
+                            <h5>Colheres de Flor</h5>
+                            <section class="precoBotao">
+                                <p>R$ 60,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <a href="descricaoDecoracao.html">
+                        <figure>
+                            <img src="imagem decoracao/decor1.png" alt="Porta chaves"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        </a>
+                        <section class="legendaProdutos">
+                            <h5>Porta chaves</h5>
+                            <section class="precoBotao">
+                                <p>R$ 70,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <a href="descricaoKits.html">
+                        <figure>
+                            <img src="imagem kits/kit1.png" alt="Kit pratos e canecas combinando"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        </a>
+                        <section class="legendaProdutos">
+                            <h5>Kit Prato Caneca</h5>
+                            <section class="precoBotao">
+                                <p>R$ 240,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <a href="descricaoVasos.html">
+                        <figure>
+                            <img src="imagem vasos/vaso1.png" alt="vaso de flor Sacola"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        </a>
+                        <section class="legendaProdutos">
+                            <h5>Vaso Sacola</h5>
+                            <section class="precoBotao">
+                                <p>R$ 250,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem canecas/caneca2.png" alt="caneca stitch"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Caneca do Stitch</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem canecas/caneca3.png" alt="caneca aliens toy story"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Caneca do Alien</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem canecas/caneca4.png" alt="caneca pluto"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Caneca do Pluto</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem canecas/caneca5.png" alt="caneca do baymax"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Caneca do Baymax</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem canecas/caneca6.png" alt="caneca grinch"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Caneca do Grinch</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem canecas/caneca7.png" alt="caneca nemo"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Caneca do Nemo</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem cozinha/cozinha2.png" alt="mantegueira"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Mantegueira</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem cozinha/cozinha3.png" alt="bowl baralho"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Bowl Baralho</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem cozinha/cozinha4.png" alt="Prato de ovo"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Prato de Ovo</h5>
+                            <section class="precoBotao">
+                                <p>R$ 50,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem cozinha/cozinha5.png" alt="Bowl Eat Dip Me"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Bowl Eat Dip Me</h5>
+                            <section class="precoBotao">
+                                <p>R$ 160,90</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor10.png" alt="Porta Esponja"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Porta Esponja</h5>
+                            <section class="precoBotao">
+                                <p>R$ 100,90</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor2.png" alt="organizador de livros"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Organizador de Livros</h5>
+                            <section class="precoBotao">
+                                <p>R$ 120,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor3.png" alt="porta joias"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Porta Joias</h5>
+                            <section class="precoBotao">
+                                <p>R$ 90,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor5.png" alt="Jogo de pia banheiro"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Jogo Pia</h5>
+                            <section class="precoBotao">
+                                <p>R$ 150,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor4.png" alt="porta joias"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Porta Joias</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor6.png" alt="bowl de pet"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Bowl para Pet</h5>
+                            <section class="precoBotao">
+                                <p>R$ 150,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor7.png" alt="porta oculos"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Porta Óculos</h5>
+                            <section class="precoBotao">
+                                <p>R$ 80,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor8.png" alt="porta retrato"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Porta Retrato</h5>
+                            <section class="precoBotao">
+                                <p>R$ 90,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem decoracao/decor9.png" alt="porta sabonete"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Saboneteira</h5>
+                            <section class="precoBotao">
+                                <p>R$ 100,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem kits/kit2.png" alt="kit pratos e canecas combinando"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Kit Prato Caneca</h5>
+                            <section class="precoBotao">
+                                <p>R$ 240,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem kits/kit3.png" alt="kit bowls"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Kit Bowls</h5>
+                            <section class="precoBotao">
+                                <p>R$ 199,90</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem kits/kit4.png" alt="kit caneca"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Kit Canecas</h5>
+                            <section class="precoBotao">
+                                <p>R$ 110,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem kits/kit5.png" alt="kit caneca"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Kit Canecas</h5>
+                            <section class="precoBotao">
+                                <p>R$ 130,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem vasos/vaso2.png" alt="vaso de flor assimetrico vazado"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Vaso Vazado</h5>
+                            <section class="precoBotao">
+                                <p>R$ 200,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem kits/kit6.png" alt="kit caneca e bandeja"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Kit café na cama</h5>
+                            <section class="precoBotao">
+                                <p>R$ 320,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem vasos/vaso3.png" alt="vaso de flor em flor"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Vaso Flor</h5>
+                            <section class="precoBotao">
+                                <p>R$ 300,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem vasos/vaso4.png" alt="vaso de flor com laço"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Vaso Laço</h5>
+                            <section class="precoBotao">
+                                <p>R$ 350,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="produtoCatalogo">
+                    <section class="produto">
+                        <figure>
+                            <img src="imagem vasos/vaso5.png" alt="vaso de flor colorido"/>
+                            <div class="iconeCoracao">
+                                <i class="fa-regular fa-heart coracao-regular"></i>
+                                <i class="fa-solid fa-heart coracao-solid"></i>
+                            </div>
+                        </figure>
+                        <section class="legendaProdutos">
+                            <h5>Vaso Colorido</h5>
+                            <section class="precoBotao">
+                                <p>R$ 320,0</p>
+                                <a href="carrinho.html" aria-label="Botão de adicionar ao carrinho"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="iconesCatalogo">
+                <figure class="iconeCatalogo">
+                    <img src="icones/icone-conversa.png" alt="Ícone de balões de conversa"/>
+                <figcaption><strong>Atendimento</strong><br>especializado</figcaption>
+            </figure>
+            <figure class="iconeCatalogo">
+                    <img src="icones/icone-cadeado.png" alt="Ícone de cadeado fechado"/>
+                <figcaption><strong>Seguro</strong><br>Certificado SSL</figcaption>
+            </figure>
+            <figure class="iconeCatalogo">
+                    <img src="icones/icone-cartao.png" alt="Ícone de balões de cartão"/>
+                <figcaption><strong>Escolha como pagar</strong><br>Cartão, pix, boleto</figcaption>
+            </figure>
+            <figure class="iconeCatalogo">
+                    <img src="icones/icone-caixa.png" alt="Ícone de caixa fechada"/>
+                <figcaption><strong>Frete grátis</strong><br>a partir de R$500,00</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <figure id="imagemFooter">
+        <img src="footer.png" alt="Imagem de forma assimétrica marrom">
+    </figure>
+    <footer class="rodape">
+        <section class="coluna">
+            <h2>LOGO</h2>
+            <address>
+                R. Ferreira Penteado, 1052<br/>
+                Centro, Campinas - SP
+            </address>
+
+            <p><i class="fa-solid fa-envelope"></i>          argile@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>         (19) 4321-7234</p>
+
+            <h3>FORMAS DE PAGAMENTO</h3>
+            <figure class="pagamentos">
+                <img src="pagamentos/pagamento.png" alt="Métodos de pagamento, boleto, visa, mastercard e PIX" />
+            </figure>
+        </section>
+
+        <nav class="coluna">
+            <h3>A ARGILE</h3>
+            <ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="catalogo.html">Produtos</a></li>
+            <li><a href="sobreNos.html">Sobre</a></li>
+            <li><a href="contaRastreio.html">Rastreie seu pedido</a></li>
+            </ul>
+        </nav>
+
+        <nav class="coluna">
+            <h3>POLÍTICAS</h3>
+            <ul>
+            <li><a href="contato.html">Política de Privacidade</a></li>
+            <li><a href="contato.html">Política de Frete</a></li>
+            <li><a href="contato.html">Termos</a></li>
+            <li><a href="contato.html">Trocas e Devoluções</a></li>
+            </ul>
+        </nav>
+
+        <hr class="linhaVertical">
+
+        <section class="colunaNewsletter">
+            <h3>ASSINE NOSSA NEWSLETTER</h3>
+            <form id="newsletter">
+                <input type="email" placeholder="Envie E-mail" /><i class="fa-solid fa-arrow-right"></i>
+            </form>
+            <nav class="social">
+                <a aria-label="link whastsapp" href="https://www.facebook.com/?locale=pt_BR"><i class="fa-brands fa-whatsapp"></i></i></a>
+                <a aria-label="link facebook" href="https://web.whatsapp.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a aria-label="link instagram" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </section>
+    </footer>
+    <p class="copyright">© 2025 ARGILE. Todos os direitos reservados.</p>
+</body>
+</html>
