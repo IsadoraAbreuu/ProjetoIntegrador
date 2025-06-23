@@ -1,8 +1,6 @@
 # Projeto Integrador - ARGILE
 
-![Logo do projeto](isa integrador/logo.png)
-
-Desenvolvedora: Isadora Abreu
+Feito por: Isadora Abreu
 
 ---
 
@@ -18,18 +16,19 @@ A proposta do projeto é unir estética, funcionalidade e experiência do usuár
 ### Usuário Comum
 
 - Visualização de catálogo completo de peças de cerâmica
-- Sistema de busca por nome e filtragem por categoria
-- Carrossel com lançamentos e destaques
+- Sistema de busca por nome e filtragem por categoria, material e tamanho
+- Carrossel de feedbacks
 - Carrinho de compras
-- Depoimentos de clientes
+- Página de encomendas
 - Página de contato e informações sobre a loja
+- Pagamento por Boleto, PIX e Cartão
 
 ### Administrador
 
 - CRUD de produtos (Cadastrar, Listar, Editar e Deletar)
 - Cadastro de novos administradores
-- Edição de perfil e troca de senha
-- Visualização de feedbacks e sugestões dos usuários
+- Edição de perfil
+- Visualização de dashboards
 
 ---
 
