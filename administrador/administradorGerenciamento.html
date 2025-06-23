@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador | ARGILE</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesAdm.css" >
+</head>
+<body id="gerenciamento">
+    <aside class="menuNavegacao">
+        <div class="menu">
+            <h2>Isadora</h2>
+            <hr>
+            <nav>
+                <a href="administradorDashboard.html">Dashboards</a>
+                <a href="administradorGerenciamento.html"><u>Gerenciamento</u></a>
+                <a href="administradorPerfil.html">Perfil</a>
+            </nav>
+        </div>
+        <button class="sair">←  Sair</button>
+    </aside>
+
+    <main id="gerenciamento">
+        <h1>Gerenciamento</h1>
+        <div class="acoes">
+            <input type="text" placeholder="Buscar por...">
+            <select aria-label="filtros de categorias">
+                <option>Filtrar por categorias</option>
+                <option>Canecas</option>
+                <option>Decoração</option>
+                <option>Vasos de flor</option>
+                <option>Kits</option>
+                <option>Cozinha</option>
+            </select>
+            <button class="novoProduto">+ Novo produto</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>PRODUTO</th>
+                    <th>CATEGORIA</th>
+                    <th>PREÇO</th>
+                    <th>ESTOQUE</th>
+                    <th>-</th>
+                    <th>-</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><img src="imagem kits/kit3.png" alt="produto1"> <strong>Kit Bowls</strong></td>
+                    <td>Kit</td>
+                    <td>R$ 199,90</td>
+                    <td>20</td>
+                    <td><button class="editar">Editar</button></td>
+                    <td><button class="excluir">X</button></td>
+                </tr>
+
+                <tr>
+                    <td><img src="imagem canecas/caneca1.png" alt="caneca margarida"> <strong>Caneca Margarida</strong></td>
+                    <td>Canecas</td>
+                    <td>R$ 80,00</td>
+                    <td>2</td>
+                    <td><button class="editar">Editar</button></td>
+                    <td><button class="excluir">X</button></td>
+                </tr>
+                <tr>
+                    <td><img src="imagem decoracao/decor8.png" alt="porta retrato"> <strong>Porta retrato</strong></td>
+                    <td>Decoração</td>
+                    <td>R$ 90,00</td>
+                    <td>7</td>
+                    <td><button class="editar">Editar</button></td>
+                    <td><button class="excluir">X</button></td>
+                </tr>
+                <tr>
+                    <td><img src="imagem cozinha/cozinha1.png" alt="kit colheres"> <strong>Kit Colheres</strong></td>
+                    <td>Kit</td>
+                    <td>R$ 60,00</td>
+                    <td>19</td>
+                    <td><button class="editar">Editar</button></td>
+                    <td><button class="excluir">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="paginacao">
+            <button>❮</button>
+            <button>❯</button>
+        </div>
+    </main>
+    
+</body>
+</html>

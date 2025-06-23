@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;  
+}
+
+
+
+/* página de gerenciamento/ crud do estoque - administrador */
+body#gerenciamento {
+    display: flex;
+    background-color: #f6f6f6;
+    font-style: normal;
+}
+
+.menuNavegacao {
+    background: #AF8E7A;
+    width: 260px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuNavegacao h2 {
+    font-size: 24px;
+}
+
+.menuNavegacao hr {
+    margin-bottom: 40px;
+    border-color: #000;
+}
+
+.menuNavegacao nav a {
+    display: block;
+    margin: 20px 0;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menuNavegacao nav a:hover {
+    color: f6f6f6;
+}
+
+.menuNavegacao .sair {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main#gerenciamento {
+    flex: 1;
+    background: #f6f6f6;
+    padding: 60px;
+}
+
+main#gerenciamento h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.acoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.acoes input, .acoes select {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    width: 220px;
+}
+
+.novoProduto {
+    background: #7E9C5A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #f6f6f6;
+    vertical-align: middle;
+}
+
+th {
+    font-size: 14px;
+    color: #000;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    border-radius: 4px;
+}
+
+.editar {
+    background: #739E3B;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.excluir {
+    background: #f70f0fc2;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.paginacao {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.paginacao button {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px 16px;
+    margin-left: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/* página de perfil - administrador */
+body#perfil {
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+main#perfil {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+main#perfil h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.conteudoPerfil input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffff;
+    display: block;
+    margin-top: 10px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.conteudoPerfil label {
+    margin-top: 20px;
+}
+
+.conteudoPerfil button {
+    background-color: #739E3B;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+.conteudoPerfil hr {
+    border-color: #AF8E7A;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.novoAdministrador button {
+    background-color: #739E3B;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+main#perfil button:hover{
+    background-color: #7E9C5A;
+}
+
+
+
+/* página de dashboard - administrador */
+body#dashboard {
+    background-color: #f6f6f6;
+    display: flex;
+}
+
+main#dashboard {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+main#dashboard h1 {
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+.conteudoDashboard {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conteudoDashboard figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteudoDashboard img {
+    width: 500px;
+}
+
+.grafico3 {
+    margin-top: 70px;
+    transform: translateX(220px);
+}
+
+.finalizacaoDashboard button {
+    background-color: #739E3B;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.finalizacaoDashboard button:hover{
+    background-color: #7E9C5A;
+}
+
+
+
+/* página de login - administrador */
+body#login {
+   background-image: url('fundoPrato.png');
+   width: 100%;
+   background-color: #f6f6f6;
+}
+
+#loginCabecalho {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#loginCabecalho img {
+    width: 200px;
+    margin-top: -60px;
+}
+
+#loginConteudo {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#loginConteudo h1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#loginConteudo small {
+    color: #474747;
+}
+
+#informacoesLogin input{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    width: 400px;
+    padding: 5px;
+    border: none;
+    border-bottom: solid 1px #AF8E7A;
+    background-color: #f6f6f6;
+}
+
+#informacoesLogin ::placeholder {
+    color: #000;
+}
+
+main#loginConteudo a h4{
+    background-color: #AF8E7A;
+    color: #f6f6f6;
+    padding: 7px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 170px;
+    text-decoration: none;
+}
+
+main#loginConteudo a h4:hover {
+    background-color:  #9b7f6d;
+}
