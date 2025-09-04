@@ -44,7 +44,4 @@ A proposta do projeto é unir estética, funcionalidade e experiência do usuár
 
 O desenvolvimento do **Argile** proporcionou uma vivência prática, em que foi possível unir diversas áreas do conhecimento técnico. Através do trabalho integrado entre as disciplinas, foi possível aplicar na prática conceitos de lógica, programação, usabilidade, acessibilidade, organização de projetos e entre outros.
 
----
 
-😊 LINK DO FIGMA 
-https://www.figma.com/design/QxWwjcX72L2n7Ecxio4geA/Projeto-Integrador---Argile?node-id=0-1&t=BXaaoIUJrfqhQFYb-1
