@@ -1,7 +1,4 @@
 # Projeto Integrador - ARGILE
-
-Feito por: Isadora Abreu
-
 ---
 
 ## 🎯 Introdução
